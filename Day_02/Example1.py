@@ -2,7 +2,7 @@ class BaseTool:
     def execute(self, task: str) -> str:
         raise NotImplementedError("Tools must implement execute()")
 
-# CalculatorTool: A specific implementation of BaseTool
+# CalculatorTool: Inherited from BaseTool
 class CalculatorTool(BaseTool):
     def execute(self, task: str) -> str:
         return f"Calculating: {task}"
