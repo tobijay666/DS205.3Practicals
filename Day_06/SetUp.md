@@ -1,0 +1,1 @@
+pip install -U google-generativeai chromadb sentence-transformers python-dotenv ollama pypdf
